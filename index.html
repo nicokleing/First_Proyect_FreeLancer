@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!-- Indica que el documento es HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento HTML, especifica el idioma (inglés) -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres para el documento (UTF-8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura que la página sea responsive -->
+    <title>Diseñador Freelancer</title> <!-- Título de la página, se muestra en la pestaña del navegador -->
+    <link rel="preload" href="css/normalize.css" as="style"> <!-- Pre-carga la hoja de estilo normalize.css para mejorar el rendimiento -->
+    <link rel="stylesheet" href="css/normalize.css"> <!-- Enlaza la hoja de estilo normalize.css -->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> <!-- Importa fuentes de Google Fonts -->
+    <link rel="preload" href="css/styles.css" as="style"> <!-- Pre-carga la hoja de estilo personalizada -->
+    <link href="css/styles.css" rel="stylesheet"> <!-- Enlaza la hoja de estilo personalizada -->
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Nicolas Klein <span>FullsTack Data Science</span></h1> <!-- Encabezado principal con nombre y profesión -->
+    </header>
+
+    <div class="nav-bg"> <!-- Contenedor con fondo para la barra de navegación -->
+        <nav class="navegacion-principal contenedor"> <!-- Barra de navegación principal -->
+            <a href="#">Inicio</a> <!-- Enlaces de navegación -->
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    
+    <section class="hero"> <!-- Sección principal o "hero" con información destacada -->
+        <div class="contenido-hero"> <!-- Contenedor del contenido de la sección "hero" -->
+            <h2>Data Sicence, Machine Learning, Bussines Analitycs y Desarrollo Fullstack <span>Consultor</span></h2> <!-- Subtítulo o eslogan destacado -->
+            <div class="ubicacion"> <!-- Contenedor para la ubicación con un ícono SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+                </svg> <!-- Ícono SVG de un pin de mapa -->
+                <p>Santiago de Chile</p> <!-- Texto de la ubicación -->
+            </div>
+            <a class="boton" href="#">Contacto</a> <!-- Botón para contactar -->
+        </div> 
+    </section>
+    
+    <main class="contenedor sombra"> <!-- Contenedor principal para el contenido de la página -->
+        <h2>Mis Servicios</h2> <!-- Título de la sección de servicios -->
+
+        <div class="servicios"> <!-- Contenedor para los diferentes servicios ofrecidos -->
+            <section class="servicio"> <!-- Sección individual para un servicio -->
+                <h3>Diseño Web</h3> <!-- Título del servicio -->
+                <div class="iconos"> <!-- Contenedor para íconos relacionados con el servicio -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                        <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
+                        <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                        <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                    </svg> <!-- Ícono SVG relacionado con el servicio de diseño web -->
+                </div>
+                <p>Descripción del servicio de diseño web...</p> <!-- Descripción del servicio de diseño web -->
+            </section>
+        
+            <section class="servicio"> <!-- Sección para otro servicio -->
+                <h3>Aplicaciones Web</h3> <!-- Título del servicio de aplicaciones web -->
+                <div class="iconos"> <!-- Contenedor para íconos relacionados con el servicio -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <line x1="4" y1="10" x2="4" y2="16" />
+                        <line x1="20" y1="10" x2="20" y2="16" />
+                        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+                        <line x1="8" y1="3" x2="9" y2="5" />
+                        <line x1="16" y1="3" x2="15" y2="5" />
+                        <line x1="9" y1="18" x2="9" y2="21" />
+                        <line x1="15" y1="18" x2="15" y2="21" />
+                    </svg> <!-- Íconos SVG relacionados con el servicio de aplicaciones web -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M9 7c-3 0-4 3-4 5.5 0 3 2 7.5 4 7.5 1.088-.046 1.679-.5 3-.5 1.312 0 1.5.5 3 .5s4-3 4-5c-.028-.01-2.472-.403-2.5-3-.019-2.17 2.416-2.954 2.5-3-1.023-1.492-2.951-1.963-3.5-2-1.433-.111-2.83 1-3.5 1-.68 0-1.9-1-3-1z" />
+                        <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
+                    </svg>
+                </div>
+                <p>Descripción del servicio de aplicaciones web...</p> <!-- Descripción del servicio de aplicaciones web -->
+            </section>
+
+            <section class="servicio"> <!-- Sección para otro servicio -->
+                <h3>E-Commerce</h3> <!-- Título del servicio de E-Commerce -->
+                <div class="iconos"> <!-- Contenedor para íconos relacionados con el servicio -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <rect x="3" y="5" width="18" height="14" rx="3" />
+                        <line x1="3" y1="10" x2="21" y2="10" />
+                        <line x1="7" y1="15" x2="7.01" y2="15" />
+                        <line x1="11" y1="15" x2="13" y2="15" />
+                    </svg> <!-- Ícono SVG relacionado con el servicio de E-Commerce -->
+                </div>
+                <p>Descripción del servicio de E-Commerce...</p> <!-- Descripción del servicio de E-Commerce -->
+            </section>
+        </div>
+    
+        <section> <!-- Sección de contacto -->
+            <h2>Contacto</h2> <!-- Título de la sección de contacto -->
+
+            <form class="formulario"> <!-- Formulario de contacto -->
+                <fieldset> <!-- Agrupa los campos del formulario -->
+                    <legend>Contactános llenando todos los campos</legend> <!-- Leyenda del formulario -->
+
+                    <div class="contenedor-campos"> <!-- Contenedor para los campos del formulario -->
+                        <div class="campo"> <!-- Campo individual del formulario -->
+                            <label>Nombre</label> <!-- Etiqueta del campo -->
+                            <input class="input-text" type="text" placeholder="Tu Nombre"> <!-- Campo de texto para el nombre -->
+                        </div>
+
+                        <div class="campo"> <!-- Otro campo del formulario -->
+                            <label>Teléfono</label> <!-- Etiqueta del campo -->
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono"> <!-- Campo de texto para el teléfono -->
+                        </div>
+
+                        <div class="campo"> <!-- Otro campo del formulario -->
+                            <label>Correo</label> <!-- Etiqueta del campo -->
+                            <input class="input-text" type="email" placeholder="Tu Email"> <!-- Campo de texto para el correo electrónico -->
+                        </div>
+                
+                        <div class="campo"> <!-- Campo para el mensaje -->
+                            <label>Mensaje</label> <!-- Etiqueta del campo -->
+                            <textarea class="input-text"></textarea> <!-- Área de texto para el mensaje -->
+                        </div>
+                    </div>
+
+                    <div class="alinear-derecha flex"> <!-- Contenedor para el botón de envío -->
+                        <input class="boton w-sm-100" type="submit" value="Enviar"> <!-- Botón de envío del formulario -->
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="footer"> <!-- Pie de página -->
+        <p>Todos los derechos reservados. Juan De la torre Freelancer</p> <!-- Texto del pie de página -->
+    </footer>
+
+</body>
+</html>
